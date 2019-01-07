@@ -11,11 +11,20 @@ Here is how the data needs to be formatted, I also included the dataset I used f
 #### Training data, each on a single line
 file_name classification(0/1) text
 
-#### Testing data, each seperated by a new line
+Ex)
+review_001.txt 0 This movie is so bad, I would not recommend it to anyone!
+
+#### Testing data, each on a single line
 file_name text
 
-#### Gold standard, each seperated by a new line and in same order as test data
+Ex)
+review_578.txt This movie wasn't really what I expected, but I think I rather enjoyed it.
+
+#### Gold standard, each on its own line and in same order as test data
 file_name classification
+
+Ex)
+review_578.txt 1
 
 ## How to run:
 
